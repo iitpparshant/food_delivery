@@ -1,0 +1,150 @@
+/* style.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.carousel-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 500px; /* Adjust the height as needed */
+  background-color: #333; /* Set the background color as needed */
+  color: white;
+  /* background: linear-gradient(to bottom, #d11305, #f1f2f1); */
+}
+
+.slides{
+  position: relative;
+  width: 100%;
+  max-height: 500px;
+  object-fit: cover; 
+  background-size: cover;
+}
+
+.content-container {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+.content-container h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+.content-container p {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.search-bar-container {
+  display: flex;
+  justify-content: center;
+}
+
+.search-bar {
+  padding: 10px;
+  font-size: 1em;
+  width: 100%; /* Adjust the width as needed */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.category-container {
+  padding: 20px;
+}
+
+.category {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.category .categoryname{
+  border: 5px solid red;
+  padding: 5px 15px 5px 15px;
+  margin: auto;
+  border-radius: 10px;
+  color: white;
+  background-color: rgb(57, 57, 57);
+}
+
+.hr-line {
+  border: 2px solid #ccc;
+  margin-bottom: 20px;
+}
+
+.no-data-message {
+  font-size: 1.2em;
+  color: #f9f8f8;
+  text-align: center;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  /* margin: 5px; */
+} 
+
+.card-container > div {
+  width: 23%;
+  margin: 1%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+
+  /* Optional: Add hover effect */
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.card h2 {
+  margin-top: 10px;
+  font-size: 1.2em;
+}
+
+.selector {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.selector select {
+  padding: 5px;
+  margin-right: 5px;
+}
+
+.price {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+

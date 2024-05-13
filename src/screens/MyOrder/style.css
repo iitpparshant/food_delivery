@@ -1,0 +1,65 @@
+/* MyOrder.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 100px;
+  }
+  
+  .navbar-container {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+  }
+  
+  .main-container {
+    margin: 20px;
+  }
+  
+  .order-container {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+  
+  .order-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .order-date {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .dish-item {
+    margin-top: 10px;
+  }
+  
+  .dish-details {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid green;
+    border-radius: 5px;
+    
+  }
+  .dish-details span{
+    padding: 10px;
+    font-weight: bold;
+  }
+  
+  .price {
+    font-weight: bold;
+    padding: 10px;
+  }
+  
+  .no-orders {
+    color: #888;
+    font-style: italic;
+    text-align: center;
+  }
+  
+
+  

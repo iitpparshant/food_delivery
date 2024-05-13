@@ -1,0 +1,51 @@
+/* style.css */
+
+.navbar {
+    background-color: #333; /* Set the background color of the navbar */
+    padding: 10px; /* Add some padding for better aesthetics */
+  }
+  
+  .sections {
+    list-style: none; /* Remove the default list styles */
+    margin: 0;
+    padding: 10px;
+    display: flex; /* Use flexbox to align the navigation items horizontally */
+    flex-direction: row;
+    justify-content: space-between;
+    /* align-items: center; */
+  }
+  
+  .section {
+    margin-right: 45px; /* Add some spacing between the navigation items */
+  }
+  
+  /* Style the link */
+  .section a {
+    text-decoration: none; /* Remove the default underline on the links */
+    color: white; /* Set the text color of the links */
+    font-weight: bold; /* Make the text bold for better visibility */
+  }
+  
+  /* Style the link on hover */
+  
+  .right-box {
+    display: flex;
+    gap: 1rem;
+  }
+  .right-box .section{
+    border: 2px solid yellow;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: green;
+  }
+  .section a:hover {
+    color: aqua;
+    text-decoration: underline; /* Underline the link on hover */
+  }
+  .section .badge{
+    border: 2px solid blue;
+    background-color: rgb(6, 6, 46);
+    border-radius: 50%;
+    margin: 1px;
+  }
+  

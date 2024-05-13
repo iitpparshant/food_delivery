@@ -1,0 +1,56 @@
+/* Card.css */
+.card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  .card img{
+    height: 150px;
+    
+  }
+  .card-title {
+    font-size: 1.5em;
+    margin: 5px;
+  }
+  
+  .card-content {
+    font-size: 1em;
+    color: #555;
+  }
+  
+  /* Style select elements */
+  .selector {
+    margin: 2px;
+    /* padding: 1px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* align-items: center;  */
+    /* align-items: center; Center the items horizontally */
+  }
+  
+  select {
+    /* width: 30%; */
+    padding: 3px; 
+    /* margin: 2px; */
+    /* font-size: 1em; */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  /* Optional: Style select on hover and focus */
+  select:hover,
+  select:focus {
+    border-color: #555;
+  }
+  
+  .price {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+    margin-left: 5px; /* Add margin for separation from the select element */
+  }
+  .button{
+    margin-bottom: 10px;
+  }
+  

@@ -1,0 +1,55 @@
+/* Cart.css */
+
+.custom-cart-container {
+    margin: auto;
+    margin-top: 50px;
+    width: 80%;
+  }
+  
+  .custom-cart-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .custom-table-header {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .custom-cart-table th, .custom-cart-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .custom-delete-btn {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+  
+  .custom-delete-btn:hover {
+    background-color: #d32f2f;
+  }
+  
+  .custom-total-price {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  
+  .custom-checkout-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .custom-checkout-btn:hover {
+    background-color: #45a049;
+  }
+  
