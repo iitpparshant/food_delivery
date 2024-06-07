@@ -35,9 +35,9 @@ export default function MyOrder() {
 
     return (
         <>
-            <div className="navbar-container">
+            {/* <div className="navbar-container">
                 <Navbar/>
-            </div>
+            </div> */}
             <div className="main-container">
                 <div className="order-container">
                     {orderData.length !== 0 ? (
@@ -64,9 +64,9 @@ export default function MyOrder() {
                     )}
                 </div>
             </div>
-            <div className='footer-container'>
+            {/* <div className='footer-container'>
                 <Footer/>
-            </div>
+            </div> */}
         </>
     );
 }

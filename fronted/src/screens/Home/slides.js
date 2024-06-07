@@ -15,7 +15,7 @@ const Slideshow = () => {
     useEffect(() => {
         const intervalId = setInterval(() => {
             setSlideIndex((prevIndex) => (prevIndex + 1) % totalSlides);
-        }, 2000);
+        }, 1000);
 
         return () => clearInterval(intervalId); // Cleanup on component unmount
     }, []);

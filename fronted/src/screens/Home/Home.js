@@ -35,9 +35,9 @@ export default function () {
 
     return (
         <>
-            <div style={{ 'position': 'fixed', 'zIndex': '100', 'width': '100%' }}>
+            {/* <div style={{ 'position': 'fixed', 'zIndex': '100', 'width': '100%' }}>
                 <Navbar />
-            </div>
+            </div> */}
             <div>
                 <div className="carousel-container">
                     <div className="slides">
@@ -84,7 +84,7 @@ export default function () {
                     <div className="no-data-message">No food categories available</div>
                 )}
             </div>
-            <Footer />
+            {/* <Footer /> */}
 
         </>
     );
