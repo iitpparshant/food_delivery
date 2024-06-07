@@ -14,7 +14,7 @@ export default function () {
 
     const loadData = async () => {
         try {
-            let response = await fetch("https://food-delivery-kohl-kappa.vercel.app//api/foodData", {
+            let response = await fetch("https://food-delivery-kohl-kappa.vercel.app/api/foodData", {
                 method: "POST",
                 headers: {
                     'Content-Type': 'application/json'

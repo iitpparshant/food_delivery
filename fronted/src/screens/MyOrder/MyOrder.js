@@ -8,7 +8,7 @@ export default function MyOrder() {
 
     const fetchMyOrder = async () => {
         try {
-            const response = await fetch("https://food-delivery-kohl-kappa.vercel.app//api/myOrderData", {
+            const response = await fetch("https://food-delivery-kohl-kappa.vercel.app/api/myOrderData", {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

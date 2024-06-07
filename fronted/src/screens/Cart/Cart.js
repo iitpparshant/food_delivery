@@ -34,7 +34,7 @@ export default function Cart() {
         hour12: false,
       });
 
-    let response = await fetch("https://food-delivery-kohl-kappa.vercel.app//api/orderData", {
+    let response = await fetch("https://food-delivery-kohl-kappa.vercel.app/api/orderData", {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
