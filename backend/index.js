@@ -16,9 +16,9 @@ mongoDB();
       console.error("Error connecting to MongoDB:", error);
   }
 })();
-
+// http://localhost:3000
 app.use(cors({
-  origin: ["http://localhost:3000"], 
+  origin: ["https://food-delivery-zzyz-front.vercel.app/"], 
   methods: ["POST", "GET"],
   credentials: true
 }));

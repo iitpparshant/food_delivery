@@ -11,10 +11,10 @@ export default function SignUp() {
         setCredentials({...credentials,[e.target.name]:e.target.value});
     };
 
-
+    // http://localhost:5000
     const handleSubmit = async (e) => {
         e.preventDefault();
-        const response =await fetch("http://localhost:5000/api/createuser", {
+        const response =await fetch("https://food-delivery-kohl-kappa.vercel.app//api/createuser", {
             method: "POST",
             headers: {
                 'Content-Type': 'application/json'
