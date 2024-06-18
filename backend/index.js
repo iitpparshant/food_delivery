@@ -17,6 +17,7 @@ mongoDB();
   }
 })();
 // http://localhost:3000
+// origin: ["https://food-delivery-zzyz-front.vercel.app"]
 app.use(cors({
   origin: ["https://food-delivery-zzyz-front.vercel.app"], 
   methods: ["POST", "GET"],
