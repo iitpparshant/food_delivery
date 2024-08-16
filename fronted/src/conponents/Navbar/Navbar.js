@@ -25,8 +25,6 @@ function Navbar() {
         {(localStorage.getItem("authToken")) ?
           <li className='section'><Link to="/myOrder">My Orders</Link></li>
           : ""}
-        <li className='section'><Link to="/about">About</Link></li>
-        <li className='section'><Link to="/contact">Contact</Link></li>
       </ul>
       <div className="right-box">
         {!(localStorage.getItem("authToken")) ?
